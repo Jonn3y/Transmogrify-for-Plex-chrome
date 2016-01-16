@@ -1,3 +1,5 @@
+**Added an stats-button for PlexPy or whatever - You can change the link in the options!**
+
 Transmogrify for Plex
 ==============
 **Transmogrify for Plex adds several features to the Plex/Web 2.0 client for Plex.**
