@@ -49,7 +49,7 @@ input[type=radio]:checked + label, input[type=checkbox]:checked + label {
     background-color: #E69533;
 }
 
-input[type=url], input[type="number"] {
+input[type=url], input[type="text"] {
     font-size: 25px;
     color: white;
     background: url(/resources/background.png);
