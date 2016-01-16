@@ -17,6 +17,7 @@ function saveOptions() {
     var actor_profiles = document.querySelector("input[name='actor_profiles']:checked").value;
     var stats_link = document.querySelector("input[name='stats_link']:checked").value;
     var plex_server_uri = document.querySelector("input[name='plex_server_uri']").value;
+    var plexpy_server_uri = document.querySelector("input[name='plexpy_server_uri']").value;
 
     var debug = document.querySelector("input[name='debug']:checked").value;
     var debug_unfiltered = document.querySelector("input[name='debug_unfiltered']:checked").value;
@@ -122,6 +123,9 @@ function restoreOptions() {
 
             var plex_server_uri = document.getElementById("plex_server_uri");
             plex_server_uri.value = results["plex_server_uri"];
+
+            var plexpy_server_uri = document.getElementById("plexpy_server_uri");
+            plexpy_server_uri.value = results["plexpy_server_uri"];
 
             var debug_radio_button = document.getElementById("debug_" + results["debug"]);
             debug_radio_button.checked = true;
