@@ -36,11 +36,13 @@ stats = {
         var nav_bar_right = document.body.getElementsByClassName("nav-bar-right")[0];
 
         var list_element = document.createElement("li");
+        
+        var plexpy_server_uri = settings["plexpy_server_uri"];
 
         var stats_link = document.createElement("a");
         stats_link.setAttribute("id", "stats-page-link");
         stats_link.setAttribute("title", "Transmogrify for Plex stats");
-        stats_link.setAttribute("href", settings["plex_server_uri"]);
+        stats_link.setAttribute("href", plexpy_server_uri );
         stats_link.setAttribute("target", "_blank");
 
         var stats_glyph = document.createElement("i");
