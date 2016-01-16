@@ -50,6 +50,7 @@ function saveOptions() {
         utils.storage_set("trakt_shows", "off");
     }
     utils.storage_set("plex_server_uri", plex_server_uri);
+    utils.storage_set("plexpy_server_uri", plexpy_server_uri);
 
     utils.storage_set("debug", debug);
     utils.storage_set("debug_unfiltered", debug_unfiltered);
